@@ -12,7 +12,7 @@
   //#define IS_UNO //n.b. the Arduino UNO is a poor choice for this application - no USB keyboard, poor serial speed
 #endif
 
-//no need to edit lines below here....111123
+//no need to edit lines below here....
 
 #define BAUD_RATE  460800 // 230400 //921600 //460800//115200 is the max for the Uno - Teensy and Leonardo use direct for much higher speeds
 boolean gIsBluetoothConnection = false;
