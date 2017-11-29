@@ -1,3 +1,5 @@
+/*
+ */
 //#define ANALOG_KEYS
 //#define SIMULATE_DATA //create fake data - osilloscope does not actually read analog ports
 
