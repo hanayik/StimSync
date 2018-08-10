@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/68041764.svg)](https://zenodo.org/badge/latestdoi/68041764)
 
+Rorden, C., & Hanayik, T. (2014). StimSync: Open-source hardware for behavioral and MRI experiments. Journal of neuroscience methods, 227, 90-99.
+
 ## Abstract
 #### BACKGROUND
 Many neuroscience experiments rely on presenting stimuli and measuring participants' responses to these events. Often computer screens, speakers and keyboards are sufficient. However, these devices are not appropriate for some situations. For example, some studies present tactile or olfactory stimuli or brain stimulation. Likewise, keyboard buttons are not appropriate for use with vocal responses, small animals or individuals with motor impairments.
