@@ -1,6 +1,24 @@
+# StimSync
+
 [![DOI](https://zenodo.org/badge/68041764.svg)](https://zenodo.org/badge/latestdoi/68041764)
 
+## Abstract
+#### BACKGROUND
+Many neuroscience experiments rely on presenting stimuli and measuring participants' responses to these events. Often computer screens, speakers and keyboards are sufficient. However, these devices are not appropriate for some situations. For example, some studies present tactile or olfactory stimuli or brain stimulation. Likewise, keyboard buttons are not appropriate for use with vocal responses, small animals or individuals with motor impairments.
 
+#### NEW METHOD
+We describe StimSync, which simulates USB keyboard inputs, allowing use with most experimental software. StimSync can measure button presses, optical signals from magnetic resonance imaging systems, changes in ambient light (e.g. synchronizing intracranial electrography), and auditory events (a voice key). In addition to the USB keyboard mode (necessarily millisecond precision), StimSync can also be set to provide higher precision timing. This feature can be used to validate timing, ensuring event synchronization (e.g. auditory events, visual events, brain stimulation). In addition to recording inputs, StimSync provides seven digital outputs for controlling external devices. Finally, StimSync can record analog inputs; we illustrate how this can be used to evaluate the rise time for computer displays.
+
+#### RESULTS
+We observed outputs with a mean latency of 2.1ms (sd=0.17ms) and USB inputs with a mean latency of 2ms (sd=0.54ms).
+
+#### COMPARISON WITH EXISTING METHOD(S)
+StimSync statistically outperforms two professional solutions and numerically outperforms other devices described in the literature.
+
+#### CONCLUSIONS
+StimSync (http://www.mccauslandcenter.sc.edu/CRNL/tools/stimsync) provides an open-source solution for controlling and validating neuroscience experiments. In addition to sharing the design, we have produced a batch of devices to demonstrate the market for professional implementations.
+
+## Detailed Notes
 Important note: Windows may not recognize a Teensy as a serial device when you plug it into a Windows computer. In this case, you should install the "Windows XP/Vista/7 Installer" (to reprogram the Teensy) or the "Windows Serial Installer" (to connect to a pre-programmed Teensy) from http://www.pjrc.com/teensy/td_download.html. On OSX computers, the serial port should be detected automatically, but you will want to get the Teensyduino software for programming.
 
 Here are a few programs for using the Arduino as an Oscilloscope
